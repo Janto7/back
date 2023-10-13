@@ -26,7 +26,7 @@ const ADMIN_CORS =
   process.env.ADMIN_CORS || "http://localhost:7000,http://localhost:7001,https://backend-production-b1e0.up.railway.app,https://admin-medusa.vercel.app";
 
 // CORS to avoid issues when consuming Medusa from a client
-const STORE_CORS = process.env.STORE_CORS || "http://localhost:8000,https://front-beta-one.vercel.app/";
+const STORE_CORS = process.env.STORE_CORS || "http://localhost:8000,https://front-beta-one.vercel.app";
 
 const DATABASE_URL =
   process.env.DATABASE_URL || "postgresql://postgres:4bTYkqgka8JDh3Q0pJuT@containers-us-west-163.railway.app:6363/railway";
